@@ -14,7 +14,7 @@ s.listen(5)
 
 
 client_socket, client_address = s.accept()
-print(f"\nConnnected to {client_address}!")
+print(f"\nNow Connnected to {client_address}!")
 
 player_x = TicTacToe("X")
 

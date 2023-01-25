@@ -78,7 +78,7 @@ while rematch == True:
     client_response = "N"
 
     if True:
-        print(f"\nWould you like a rematch??")
+        print(f"\nWould you like a rematch with the AI??")
         client_response = input("(Y/N): ")
         client_response = client_response.capitalize()
         temp_client_resp = client_response
